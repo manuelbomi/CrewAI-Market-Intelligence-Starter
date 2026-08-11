@@ -27,17 +27,17 @@ The current example uses a simple agent workflow to gather a market summary for 
 
 ## Suggested production uses
 
-1. LNG fuel stocking for a gas provider
-   - Use the workflow to gather market signals for LNG-related companies, energy indices, and fuel-price proxies.
-   - The system can help determine when inventory should be increased or reduced based on recent market conditions.
-   - Example use: a gas provider monitors LNG-related market data and receives a daily summary to support procurement planning.
-   - In a fuller deployment, this could be scheduled to run every morning and feed a dashboard or procurement alert system.
-
-2. Financial advisory and planning
+1. Financial advisory and planning
    - Use the workflow to collect concise company and market summaries for client portfolios.
    - Advisors can use it to support discussions around sector positioning, company fundamentals, and valuation context.
    - Example use: a financial planner runs a report for a client’s watchlist before a consultation.
    - With more development, this could become a client-facing briefing system with richer formatting and historical comparisons.
+  
+1. Fuel stocking for a gas, diesel, or bulk LNG provider
+   - Use the workflow to gather market signals for gas, diesel, LNG-related companies, energy indices, and fuel-price proxies.
+   - The system can help determine when inventory should be increased or reduced based on recent market conditions.
+   - Example use: a gas provider monitors gas, diesel, LNG-related market data and receives a daily summary to support procurement planning.
+   - In a fuller deployment, this could be scheduled to run every morning and feed a dashboard or procurement alert system.
 
 3. Market intelligence for internal operations
    - Use the workflow as a lightweight internal analyst for monitoring key tickers, sectors, or business-relevant market signals.
